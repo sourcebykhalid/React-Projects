@@ -1,7 +1,11 @@
+import ReactP from "./ReactP";
+
 function App() {
+  const sEngine = "Google";
   return (
     <>
-      <h1>React Projects with Vite | Khalid</h1>
+      <ReactP />
+      <h1>visit {sEngine} in other tab</h1>
     </>
   );
 }
